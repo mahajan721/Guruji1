@@ -13,13 +13,13 @@ pipeline {
             }
             post {
                 success {
-                    mail to: 'you@example.com',
+                    mail to: 'barbiemahajan721@gmail.com',
                          subject: 'Unit and Integration Tests Passed',
                          body: 'The unit and integration tests have passed. See attached logs for more information.',
                          attachLog: true
                 }
                 failure {
-                    mail to: 'you@example.com',
+                    mail to: 'barbiemahajan721@gmail.com',
                          subject: 'Unit and Integration Tests Failed',
                          body: 'The unit and integration tests have failed. See attached logs for more information.',
                          attachLog: true
@@ -34,13 +34,13 @@ pipeline {
             }
             post {
             uccess {
-                    mail to: 'you@example.com',
+                    mail to: 'barbiemahajan721@gmail.com',
                          subject: 'Code Analysis Passed',
                          body: 'The code analysis has passed. See attached logs for more information.',
                          attachLog: true
                 }
                 failure {
-                    mail to: 'you@example.com',
+                    mail to: 'barbiemahajan721@gmail.com',
                          subject: 'Code Analysis Failed',
                          body: 'The code analysis has failed. See attached logs for more information.',
                          attachLog: true
